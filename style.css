@@ -46,9 +46,12 @@ body {
 	/* POSITION */
 		top:0px;
 	/* TEXT */
-		text-align:center;
-		color:#f5f5f5;
-		word-spacing:2.5em;
+		/* CENTERED */
+			text-align:center;
+		/* COLOR */
+			color:#f5f5f5;
+		/* SPACE */
+			word-spacing:2.5em;
 	/* SPACING */
 		padding-top:0.5%;
 		padding-bottom:0.5%;
