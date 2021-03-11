@@ -154,3 +154,21 @@ iframe {
 		padding-top:0.5%;
 		padding-bottom:0.5%;
 }
+.smp {
+		position:relative;
+	/* TEXT */
+		font-size:17.5px;
+	/* POSITION */
+		padding-top:2.5%;
+		padding-left:5%;
+		padding-right:5%;
+}
+.smptitle {
+	position:relative;
+	/* TEXT */
+		font-size: 32px;
+		font-weight:bold;
+		text-align: center;
+	/* POSITION */
+		padding-top:5%;
+}
