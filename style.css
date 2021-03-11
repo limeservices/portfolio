@@ -122,6 +122,8 @@ iframe {
 /* PORTFOLIO PAGE */
 .portp {
 	position:absolute;
+	/* BACKGROUND COLOR */
+		background: #323232;
 	/* POSITION */
 		top:0px;
 		right:0px;
