@@ -1,37 +1,50 @@
 /* STOP SIDE SCROLLING */
 html, body {
+	/* MAX SIZE */
 	max-width: 100%;
+	/* HIDER BAR */
 	overflow-x: hidden;
 }
+/* SITE */
 body {
 	/* BACKGROUND COLOR MAIN */
 	background-image: linear-gradient(to bottom, #00FF27 100%, #00FF27 0%);
+	/* WEBSITE FONT */
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
-/* EVERYTHING */
+
+/* EVERYTHING DOES INSIDE */
 .box {
 	position:absolute;
-	top:0px;
-	right:0px;
-	bottom:0px;
-	left:0px;
-	min-width:500px;	
+	/* POSITION */
+		top:0px;
+		right:0px;
+		bottom:0px;
+		left:0px;
+	/* SIZE */
+		min-width:500px;	
 }
+
 /* LOGO */
 .logo {
 	position:relative;
-	background: #272727;
-	top:0px;
-	right:0px;
-	left:0px;
+	/* BACKGROUND COLOR */
+		background: #272727;
+	/* POSITION */
+		top:0px;
+		right:0px;
+		left:0px;
 	/* TEXT */
 		text-align: center;
 }
+
 /* MENU SYSTEM */
 .nav {
 	position:relative;
-	background:#323232;
-	top:0px;
+	/* BACKGROUND COLOR */
+		background:#323232;
+	/* POSITION */
+		top:0px;
 	/* TEXT */
 		text-align:center;
 		color:#f5f5f5;
@@ -40,6 +53,7 @@ body {
 		padding-top:0.5%;
 		padding-bottom:0.5%;
 }
+
 /* MAIN PAGE CONTENT */
 .content {
 	position:relative;
@@ -48,6 +62,14 @@ body {
 	/* POSITION */
 		top:5%;
 }
+
+/* CENTER */
+.center {
+	/* TEXT */
+	text-align:center;
+}
+
+/* HOME PAGE SOCIAL LINKS */
 .socials {
 	position:relative;
 	top:40%;
@@ -57,7 +79,9 @@ body {
 	/* CENTRE */
 		-ms-transform: translateY(-50%);
   		transform: translateY(-50%);
-} 
+}
+
+/* ERROR 404 PAGE */
 .error404 {
 	position:relative;
 	top:40%;
@@ -67,6 +91,7 @@ body {
 		-ms-transform: translateY(-50%);
   		transform: translateY(-50%);
 }
+
 /* DONATE */
 .donate {
 	position: relative;
@@ -75,12 +100,14 @@ body {
 		text-align: center;
 		font-size: 25px;
 }
+
 /* PORTFOLIO */
 .portfolio {
 	position: relative;
 	/* TEXT */
 		text-align:center;
 }
+
 /* PORTFOLIO FULL SCREEN VIDEO */
 iframe {
 	position:relative;
@@ -91,22 +118,28 @@ iframe {
     width: auto;
    	height: auto;
 }
+
 /* PORTFOLIO PAGE */
 .portp {
 	position:absolute;
-	top:0px;
-	right:0px;
-	bottom:0px;
-	left:0px;
-	min-width:500px;
+	/* POSITION */
+		top:0px;
+		right:0px;
+		bottom:0px;
+		left:0px;
+	/* SIZE */
+		min-width:500px;
 }
+
 /* PORTFOLIO BACK BUTTON */
 .back {
 	position:fixed;
-	background:#323232;
-	left:90%;
-	top:90%;
-	right:0%;
+	/* BUTTON COLOR */
+		background:#323232;
+	/* POSITION */
+		left:90%;
+		top:90%;
+		right:0%;
 	/* TEXT */
 		color:#f5f5f5;
 		text:100%;
